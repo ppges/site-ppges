@@ -55,15 +55,7 @@
             </div>
         </div>
     </div>
-    <div class="col-sm-6" style="margin-bottom: 15px">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">27/05/2019</h5>
-                <p class="card-text">Seleção 2019 - PPGES</p> <br>
-                <!--<button class='btn btn-success text-white' type='button' data-toggle='modal' data-target='#ModalLongoExemplo'> <?= $LANG['home']['noticia']['botao'] ?> </button>-->
-            </div>
-        </div>
-    </div>
+    
 </div>
 
 

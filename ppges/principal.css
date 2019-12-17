@@ -1,0 +1,45 @@
+.bg-success {
+    background: #3B5998 !important;
+}
+
+.list-group-item {
+    color: #3B5998 !important;
+}
+
+.text-white {
+    color: #FF9900 !important;
+    font-weight: bold;
+}
+
+.titulo-navbar {
+    font-weight: bold;
+}
+
+.btn-outline-success:hover {
+    background-color: #3B5998;
+    border-color: #3B5998;
+}
+
+.btn-outline-success {
+    color: #FF9900;
+    background-color: transparent;
+    background-image: none;
+    border-color: #FF9900;
+}
+
+.text-success {
+    color: #3B5998 !important;
+}
+
+.nav-link {
+    color: #FF9900;
+}
+
+.btn-success {
+    background-color: #3B5998;
+    border-color: #3B5998;
+}
+
+.tab-pane {
+    font-family: Arial, Helvetica, sans-serif !important;
+}

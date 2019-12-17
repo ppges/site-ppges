@@ -22,6 +22,7 @@
 
     <link rel="stylesheet" href="assets/bootstrap-4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome-4.7/css/font-awesome.min.css">
+    <link rel="stylesheet" href="principal.css">
 
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/bootstrap-4.1.3/js/bootstrap.js"></script>
@@ -50,7 +51,7 @@
             <a class="navbar-brand" href="#">
                 <img src="assets/images/icone.png" height="50" alt="logo ppges">
             </a>
-            <span class="d-none d-md-block">PPGES - <?= $LANG['navbar']['titulo'] ?></span>
+            <span class="d-none d-md-block titulo-navbar">PPGES - <?= $LANG['navbar']['titulo'] ?></span>
             <span class="d-md-none d-block">PPGES</span>
         </a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
@@ -83,7 +84,7 @@
         <div class="row">
             <div class="col-md col-md-3" style="margin-bottom: 15px">
                 <div class="card d-none d-md-block">
-                    <img src="assets/images/<?= $LANG['logo'] ?>" class="card-img-top" alt="...">
+                    <!--<img src="assets/images/<?= $LANG['logo'] ?>" class="card-img-top" alt="...">-->
                     <ul class="list-group list-group-flush">
                         <?php
                         $lang = isset($_GET['lang']) && $_GET['lang'] == 'en' ? 'en' : 'pt';
@@ -127,13 +128,13 @@
                     <a href=".?lang=pt&pag=<?= isset($_GET['pag']) ? addslashes($_GET['pag']) : 'home' ?>" class="text-success"> <?= $LANG['lang']['pt'] ?> </a>
                 </div>
                 <hr class="clearfix w-100 d-md-none pb-3">
-                <div class="col-md-3 mb-md-0 mb-3">
+                <div class="col-md-6 mb-md-0 mb-3">
                     <h5 class="text-uppercase"><?= $LANG['contato']['titulo'] ?></h5>
 
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled d-flex justify-content-">
                         <li>
-                            <p>Email: <span class="text-success">example@email.com</span></p>
-                            <p><?= $LANG['contato']['telefone'] ?>: <span class="text-success">(99) 9 9999-9999 </span></p>
+                            <p>Endereço: <span class="text-success">Av. Tiaraju, 1406 - Ibirapuitã, Alegrete - RS, 97546-550</span></p>
+                            <p><?= $LANG['contato']['telefone'] ?>: <span class="text-success">(55) 3421-8417 </span></p>
                         </li>
                     </ul>
 
@@ -143,8 +144,7 @@
         </div>
         <div class="footer-copyright text-center py-3">
             <p class="text-secondary">
-                <?= $LANG['developer']['titulo'] ?>: Igor Flores <?= $LANG['developer']['e'] ?> Amanda Ribeiro <br>
-                2019 - <?= date("Y") ?>
+            © 2019 Universidade Federal do Pampa - UNIPAMPA
             </p>
         </div>
     </footer>

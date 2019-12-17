@@ -1,6 +1,6 @@
 <title> <?= $LANG['menu'][1]['titulo'] ?></title>
 
-<div class="col-md-12">
+<div class="col-md-12" style=" font-family: Arial, Helvetica, sans-serif;">
     <h6 style="margin-bottom: 5px; color: #3a3a3a;"> <?= $LANG['menu'][1]['titulo'] ?>:</h6>
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <?php
@@ -45,7 +45,7 @@
             phpversion();
             echo " 
                 <div class='tab-pane fade ". ($n == 1 ? 'show active' : '') ."' id='n$n' role='tabpanel'>
-                    <p style='margin: 5px'>$aprs[texto]</p>
+                    <p style='margin: 5px;'>$aprs[texto]</p>
                 </div>
             ";
             $n++;
